@@ -1,6 +1,34 @@
-#header {
-	font-size: 2rem;
-	background-color: #667;
+body {
+	margin: 0px;
+}
+
+header {
+	margin: 0px;
+	height: 65px;
 	width: 100%;
+	padding: 10px;
+	font-size: 2rem;
+	font-family: Futura;
+	background-color: #667;	
 	z-index: 100;
+	position:absolute;
+	float: both;
+}
+
+#subhead {
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
+footer {
+	margin: 0px;
+	height: 65px;
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	font-family: Futura;
+	background-color: #667;	
+	z-index: 98;
+	float: both;
+	position: relative;
 }
