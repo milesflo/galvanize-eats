@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	height: 800px;
+	height: 650px;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,13 +16,14 @@ body {
 }
 
 header {
+	color: #F2EFED;
 	margin: 0px;
 	height: auto;
 	width: 780px;
 	padding: 10px;
-	font-size: 2rem;
-	font-family: Futura;
-	background-color: rgba(101, 101, 118, 0.54);	
+	font-size: 1.5rem;
+	font-family: Trebuchet MS;
+	background-color: rgba(0, 0, 0, 0.55);	
 	z-index: 5;
 	position:absolute;
 	float: left;
@@ -30,30 +31,31 @@ header {
 }
 
 #subhead {
-	color: #222;
+	color: #262626;
 	font-size: 1.3rem;
 	font-style: italic;
 }
 
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -65px; 
+  margin-bottom: -30px; 
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 65px; 
+  height: 30px; 
 }
 .site-footer {
 	text-align: center;
 	color: white;
+	padding-top: 10px;
 	margin: 0px;
-	height: 65px;
+	height: 30px;
 	width: 100%;
 	font-size: 1rem;
-	font-family: Futura;
+	font-family: Arial;
 	background-color: #000;	
 	z-index: 5;
 	float: left;
@@ -61,7 +63,67 @@ header {
 	position: relative;
 }
 
-img {
+.img {
 	width: 800px;
-	height: 400px;
+	height: 183px;
+	margin: 0px;
+	background-image: url("../../media/restaurant-hero-image.jpg");
+	background-size: 800px, 400px;
+	background-repeat: no-repeat;
+	padding-top: 150px;
 }
+
+h1 {
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Arial Black;
+	font-weight: bold;
+}
+
+#orderButton {
+    margin-top: 25px;
+    width: 416px;
+    margin-left: 200px;
+    height: 55px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: Arial Black;
+    background-color: #6BA073;
+    border: 1px solid #3E5539;
+}
+
+.info {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 37px;
+	height: 250px;
+}
+.infoBox {
+	width: 29%;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: auto;
+	float: left;
+}
+
+h2 {
+	font-family: Trebuchet MS;
+	font-weight: lighter;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: Trebuchet MS;
+	font-weight: lighter;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+
+
+
+
