@@ -76,7 +76,8 @@ header {
 	float: left;
 }
 
-#dropDown {
+#itemList {
+	font-family: Trebuchet MS;
 	height: 45%;
 	width: 100%;
 	border: 1px solid black;
