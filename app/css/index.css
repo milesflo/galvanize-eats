@@ -30,12 +30,6 @@ header {
 	display: block;
 }
 
-#subhead {
-	color: #262626;
-	font-size: 1.3rem;
-	font-style: italic;
-}
-
 .page-wrap {
   min-height: 100%;
   margin-bottom: -30px; 
@@ -61,6 +55,13 @@ header {
 	float: left;
 	display: block;
 	position: relative;
+}
+
+
+#subhead {
+	color: #262626;
+	font-size: 1.3rem;
+	font-style: italic;
 }
 
 .img {

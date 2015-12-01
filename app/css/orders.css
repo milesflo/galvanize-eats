@@ -1,0 +1,165 @@
+* {
+	margin: 0px;
+}
+
+html { 
+	background-image: url("../../media/128-198.jpg");
+	background-repeat:repeat;
+}
+
+body {
+	height: 650px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+header {
+	color: #F2EFED;
+	margin: 0px;
+	height: auto;
+	width: 780px;
+	padding: 10px;
+	font-size: 1.5rem;
+	font-family: Trebuchet MS;
+	background-color: rgba(0, 0, 0, 0.55);	
+	z-index: 5;
+	position:absolute;
+	float: left;
+	display: block;
+}
+
+.page-wrap {
+  min-height: 100%;
+  padding-top: 75px;
+  margin-bottom: -30px; 
+  background-color: #eacb75;
+  z-index: 1
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 30px; 
+}
+.site-footer {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	margin: 0px;
+	height: 30px;
+	width: 100%;
+	font-size: 1rem;
+	font-family: Arial;
+	background-color: #000;	
+	z-index: 5;
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#innerBody {
+	height: 600px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #eee;
+}
+
+/*   LEFT COLUMN   */
+#leftCol {
+	height: 100%;
+	width: 48%;
+	display: block;
+	float: left;
+}
+
+#dropDown {
+	height: 45%;
+	width: 100%;
+	border: 1px solid black;
+	background-color: #fefefe;
+	margin-bottom: 5%;
+}
+
+form{
+	height: 50%;
+	width: 100%;
+	display: inline-block;
+}
+
+#itemAdder {
+	height: 25%;
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+	#quantityLabel {
+		height: 20%;
+		width: 100%
+	}
+
+	#quantity {
+		height: 60%;
+		width: 40%;
+		font-size: 2rem;
+		background-color: #fefefe;
+		display: inline-block;
+		float: left;
+	}
+
+	#addItem {
+		margin-left: 50px;
+		height: 80%;
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+#contactInfo {
+	height: 65%;
+	width: 100%;
+	display: inline-block;
+}
+
+	#name {
+		height: 2rem;
+		width: 90%;
+		font-size: 1rem;
+	}
+
+	#number {
+		height: 2rem;
+		width: 90%;
+		font-size: 1rem;
+	}
+
+	#address {
+		height: 2rem;
+		width: 90%;
+		font-size: 1rem;
+	}
+
+#send {
+	height: 1px;
+	width: 40%;
+	margin-left: 30%;
+}
+
+/*   RIGHT COLUMN   */
+#rightCol {
+	height: 100%;
+	width: 48%;
+	margin-left: 3.6%;
+	display: block;
+	float: left;
+	border: 1px solid black;
+	background-color: #fefefe;
+}
+
+
+
+
