@@ -27,7 +27,18 @@ var pepperoniPizza = new Item("Pepperoni Pizza", 19, "pizza");
 var meatPizza = new Item("Meat Lovers Pizza", 24, "pizza");
 var veggiePizza = new Item("Veggie Pizza", 20, "pizza");
 
-var hamBurger = new Item("Hamburger", 9, "pizza");
-var cheeseBurger = new Item("Cheese Burger", 11, "pizza");
-var baconBurger = new Item("Bacon-Cheese Burger", 13, "pizza");
-var bisonBurger = new Item("Bison Burger", 15, "pizza");
+var hamBurger = new Item("Hamburger", 9, "burger");
+var cheeseBurger = new Item("Cheese Burger", 11, "burger");
+var baconBurger = new Item("Bacon-Cheese Burger", 13, "burger");
+var bisonBurger = new Item("Bison Burger", 15, "burger");
+
+
+function appending(itemObj) = {
+	if (itemObj.kind === "pizza") {
+		$('#pizzaList').append("<tr><td>"+itemObj.name+"</td><td>"+(itemObj.price).toFixed(2)+"</td></tr>"
+	}  else if (itemObj.kind === "burger") {
+		$('#burgerList').append("<tr><td>"+itemObj.name+"</td><td>"+(itemObj.price).toFixed(2)+"</td></tr>"
+	}  else {
+		console.log("Something's not right with appending()");
+	}
+}
